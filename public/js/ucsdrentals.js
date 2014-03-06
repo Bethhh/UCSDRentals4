@@ -28,6 +28,7 @@ function checkLogIn(result){
 	}else if(result == errorMsgs[3]){
 		alert("Your password is incorrect!\n Please reenter your password!");
 	}else{
+		ga("send","event","login","click", "log-in");
 		window.location='/menu';///'+result;
 	}
 }
@@ -82,6 +83,7 @@ function checkSignUp(result){
 	}else if(result == errorMsgs[3]){
 		alert("Your passwords don't match!\n Please reenter your password!");
 	}else{
+		ga("send","event","login","click", "sign-up");
 		window.location='/setting';
 		//$.get('/setting', putEPBack);
 	}
@@ -178,6 +180,7 @@ $("#update").click(function(f){
 });
 
 $("#logout").click(function(){
+	ga("send","event","logout","click","menu");
 	$.get('/login/logout', afterOut);
 });
 function afterOut(result){
