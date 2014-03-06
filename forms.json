@@ -1,0 +1,238 @@
+{
+	"Types": [
+		{
+			"label":"Profile Type",
+			"options":["Rent Out","Rent In"],
+			"dropdown": 0,
+			"radio":1,
+			"help":""
+		},
+		{
+			"label": "Listing Type",
+			"options": ["Single", "Shared"],
+			"dropdown":	0,
+			"radio":1,
+			"help": "Do you want a place of full vacancy or you can share with others?"
+		},
+		{
+			"label": "Housing Type",			
+			"options": ["Apts", "Rooms","Sublets", "Studios", "Condos"],
+			"dropdown":	1,
+			"radio":0,
+			"help": "Choose the type of the place you want :)"
+		}
+	],
+
+	"Property": [
+		{
+			"label": "Parking",
+			"options": ["Lot","Garage","None"],
+			"dropdown": 1,
+			"radio": 0,
+			"help": "Choose the type of parking space for your car"
+		},
+		{
+			"label": "Storage",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want an extra storage room?"
+		},
+		{
+			"label": "Kitchen",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you need a kitchen?"
+		},
+		{
+			"label": "Bathroom",
+			"options": ["Private","Shared"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a private bathroom or you do not mind sharing?"
+		},
+	
+		{
+			"label": "Bedroom",
+			"options": ["Private","Shared"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want your own bedroom or you can share?"
+		},
+		{
+			"label": "Laundry Facility",
+			"options": ["In House","Near","None"],
+			"dropdown": 1,
+			"radio": 0,
+			"help": "Do you want your laundry facility in your place or somewhere outside and near? Or you do not need laundry facility?"
+		},
+		{
+			"label": "Furnished",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want your place furnished?"
+		},
+		{
+			"label": "Pool",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place in a complex with a pool?"
+		},
+		{
+			"label": "Sports Facility",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place in a complex with sports facility?"
+		},
+		{
+			"label": "Internet",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place with Internet access?"
+		},
+		{
+			"label": "Balcony",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place with balcony?"
+		},
+		{
+			"label": "AC",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place with air conditioner?"
+		},
+		{
+			"label": "Cable",
+			"options": ["Yes","No"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Do you want a place with cable?"
+		}
+	],
+	"Rent": [
+		{
+			"label": "Rent Range",
+			"options": ["$0~$500", "$500~$1000", "$1000~$1500", "$1500~$2000"],
+			"dropdown": 1,
+			"radio": 0,
+			"help": "Choose the range of rent that you can accept :)"
+		},
+		{
+			"label": "Water",
+			"options": ["Include","Not"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Is this rent for a place with water supply preinstalled?"
+		},
+		{
+			"label": "Electricity",
+			"options": ["Include","Not"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Is this rent for a place with electricity supply preinstalled?"
+		},
+		{
+			"label": "Internet/Wifi",
+			"options": ["Include","Not"],
+			"dropdown": 0,
+			"radio": 1,
+			"help": "Is this rent for a place with Internet/wifi supply preinstalled?"
+		},
+		{
+			"label": "Pay Method",
+			"options": ["Credit/Debit","Cash","Check"],
+			"dropdown": 1,
+			"radio": 0,
+			"help": "How do you want to pay the rent?"
+		},
+		{
+			"label": "Deposit",
+			"options":["Under: $500", "Under: $1000", "Under: $2000"],
+			"dropdown": 1,
+			"radio": 0,
+			"help": "How much deposit can you accept to pay"
+		}
+	],
+	"Address":[
+		{
+			"label": "Area",
+			"options":["UTC", "Costa Verde", "La Jolla International Graden", "Nobel Court", "Regents Court"],
+			"dropdown": 1,
+			"radio": 0
+		},
+		{
+			"label": "Transportation",
+			"options":["Close","Far"],
+			"dropdown": 0,
+			"radio": 1
+		},
+		{
+			"label": "Market/Mall",
+			"options":["Close","Far"],
+			"dropdown": 0,
+			"radio": 1
+		}
+	],
+	"Other": [
+		{
+			"label": "Pets",
+			"options":["Allowed","Not"],
+			"dropdown": 0,
+			"radio": 1
+		},
+		{
+			"label": "Major",
+			"options":["Engineering", "Science", "Literature", "Medical"],
+			"dropdown": 1,
+			"radio": 0
+		},
+		{
+			"label": "Age range",
+			"options":["15~17","18~20","21~23","24~26"],
+			"dropdown": 1,
+			"radio": 0
+		},
+		{
+			"label": "Sex",
+			"options":["Male","Female"],
+			"dropdown": 0,
+			"radio": 1
+		},
+		{
+			"label": "Smoking",
+			"options":["Yes","No"],
+			"dropdown": 0,
+			"radio": 1
+		},
+		{
+			"label": "Contact",
+			"options":["Email","Text","Call"],
+			"dropdown": 1,
+			"radio": 0
+		}
+	],
+
+	"Dates": [
+		{
+			"label": "Length",
+			"options":["Summer","Quarter","Year"],
+			"dropdown": 1,
+			"radio": 0
+		},
+		{
+			"label": "Lease",
+			"options":["Monthly","Yearly"],
+			"dropdown": 0,
+			"radio": 1
+		}
+
+	]
+}
